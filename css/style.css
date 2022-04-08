@@ -234,8 +234,11 @@ body {
 
 /*-----------------------------*/
 .block-text {
-
 }
+.block-text_center {
+    text-align: center;
+}
+
 .block-text__title {
     font-weight: 700;
     font-size: 44px;
@@ -258,9 +261,13 @@ body {
 .block-text__text:not(:last-child) {
     margin: 0 0 24px 0;
 }
+.block-text__text_mw {
+    max-width: 620px;
+    margin: 0 auto;
+}
 .block-text__button {
 }
-@media (max-width: 767.98) {
+@media (max-width: 767.98px) {
     .block-text__title {
         font-size: 34px;
     }
@@ -286,7 +293,7 @@ body {
     top: 0;
     margin: 0 0 0 -252px;
     transform: translate(100%,0px);
-    border-radius: 30px 0px 0px 30px;
+    border-radius: 30px 0 0 30px;
     background-color: #EC5863;
 }
 .get-started__content {
@@ -487,7 +494,7 @@ body {
     flex: 0 1 50%;
     position: relative;
     padding: 0 0 30% 0;
-    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    box-shadow: 0 4px 18px rgba(88, 126, 236, 0.18);
     border-radius: 8px;
     overflow: hidden;
 }
@@ -501,7 +508,7 @@ body {
 }
 @media (max-width: 767.98px) {
     .experts {
-        padding: 80px 0px 30px 0;
+        padding: 80px 0 30px 0;
     }
     .experts__body {
         align-items: stretch;
@@ -582,7 +589,7 @@ body {
     width: 127px;
     height: 127px;
     right: -60px;
-    top: 0px;
+    top: 0;
     transform: rotate(-30deg);
 }
 @media (max-width: 767.98px) {
@@ -601,3 +608,14 @@ body {
         margin:  0 0 15px 0;
     }
 }
+/*-----------------------------*/
+.healthcare {
+}
+
+.healthcare__container {
+}
+
+.healthcare__block-text {
+    margin: 0 0 45px 0;
+}
+
