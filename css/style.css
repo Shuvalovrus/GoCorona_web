@@ -309,7 +309,7 @@ body {
 .get-started__image img {
     max-width: 100%;
 }
-
+/*-----------------------------*/
 .video-get-started {
     display: inline-flex;
     align-items: center;
@@ -337,7 +337,7 @@ body {
     line-height: 126%;
     letter-spacing: 2px;
 }
-
+/*-----------------------------*/
 @media (max-width: 991.98px) {
     .get-started__container:before {
         right: 185px;
@@ -367,3 +367,4 @@ body {
         padding: 0;
     }
 }
+/*-----------------------------*/
